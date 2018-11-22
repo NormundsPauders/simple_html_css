@@ -28,3 +28,23 @@
 .footer{
     background-color: cadetblue;
 }
+
+.menu{
+    height: 34px;
+    text-align: center;
+}
+
+.menu>ul>li{
+    display:inline;
+    padding:10px 10px 10px 10px;
+    background-color: darkgreen;
+    position: relative;
+    top:8px;
+    font-family: Tahoma, serif;
+    font-size: 14px;
+}
+
+.menu>ul>li>a{
+    text-decoration: none;
+    color:#fff;
+}
