@@ -1,7 +1,13 @@
+.mainbox, .leftside, .main, .rightside{
+    height: 100%;
+}
+
+
 .mainbox{
     background-color: coral;
     width: 800px;
     margin: 0px auto;
+    display: table;
 }
 .menu{
     background-color: brown;
@@ -47,4 +53,16 @@
 .menu>ul>li>a{
     text-decoration: none;
     color:#fff;
+}
+
+.mgallery{
+    text-align: center;
+}
+
+.gallery{
+    max-width: 100px;
+}
+
+.mgallery a{
+    text-decoration: none;
 }
