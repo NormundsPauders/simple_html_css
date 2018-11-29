@@ -1,4 +1,4 @@
-.mainbox, .leftside, .main, .rightside{
+body, html, .mainbox, .leftside, .main, .rightside{
     height: 100%;
 }
 
